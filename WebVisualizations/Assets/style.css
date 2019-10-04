@@ -1,0 +1,137 @@
+body {
+    background-color: rgb(75, 75, 77);
+
+}
+
+.menu{
+    background-color: #343a40;
+    color: floralwhite;
+    padding-left: 40px;
+    border-bottom:medium solid black;
+}
+#title{
+    color: floralwhite;
+    text-decoration: none;
+}
+
+.content{
+    margin-left: 20px;
+    margin-right: 40px;
+    margin-top: 20px;
+}
+.article{
+    padding: 10px;
+    background-color: #343a40;
+    color: floralwhite;
+    font-size: 18px;
+    border:medium solid black;
+    margin-right: 7px;
+    margin-bottom: 10px;
+    padding-bottom: 20px;
+}
+.picture{
+    float: left;
+    margin-right: 20px;
+    border:medium solid black;
+    width: 370px;
+    height: 269px;
+
+
+}
+.align{
+    text-align:center
+}
+#comp{
+    float:center;
+    background-color: #343a40;
+    color: floralwhite;
+    text-align: center;
+    border:medium solid black;
+
+}
+.center{
+    background-color: #343a40;
+    color: floralwhite;
+    text-align: center;
+    border:medium solid black;
+    padding-bottom: 5px;
+}
+.image{
+    float: center;
+    border:medium solid black;
+    width: 150px;
+    height: 109px;
+    margin: 5px
+    
+}
+.bigimage{
+    float: center;
+    border:medium solid black;
+    width: 400px;
+    height: 290px;
+    margin: 25px
+    
+}
+
+
+
+hr{
+    background-color: white
+}
+.dataframe{
+    border:medium solid rgb(148, 148, 148);
+    margin-left: 20px;
+    margin-right: 20px; 
+}
+td{
+    width:145px
+}
+#data{
+    margin-left:40px
+}
+.selected{
+    border:medium solid rgb(0, 238, 255) !important;
+    float: center;
+    border:medium solid black;
+    width: 150px;
+    height: 109px;
+    margin: 5px;
+    padding: 2px
+
+}
+
+@media (max-width: 767px) {
+    .navbar{
+    background-color:rgb(0, 4, 39) !important;
+     }
+    .menu{
+    background-color:rgb(0, 4, 39) !important;
+    }
+    .article{
+        padding: 10px;
+        background-color: rgb(0, 4, 39);
+        color: floralwhite;
+        font-size: 18px;
+        border:medium solid black;
+        margin-right: 0px;
+    }
+    .center{
+        background-color: rgb(0, 4, 39);
+        color: floralwhite;
+        text-align: center;
+        border:medium solid black;
+    }
+    .content{
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-top: 20px
+    }
+    #comp{
+        float:center;
+        background-color: rgb(0, 4, 39);
+        color: floralwhite;
+        text-align: center;
+        border:medium solid black;
+    
+    }
+}
